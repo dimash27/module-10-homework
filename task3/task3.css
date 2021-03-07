@@ -1,0 +1,42 @@
+.input {
+    width: 300px;
+    height: 28px;
+    border: none;
+    background-color: #dadfe1;
+    border-radius: 20px;
+}
+
+.warning {
+    border-color: red;
+}
+
+button {
+    width: 94px;
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+}
+
+#chat {
+    border: 3px solid #dadfe1;
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.clientMsg, .serverMsg {
+    color: #019875;
+    border: 3px solid blue  ;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 15px;
+    width: fit-content;
+    max-width: 50%;
+}
+
+.clientMsg {
+    align-self: flex-end;
+}
